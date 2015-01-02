@@ -1,0 +1,117 @@
+#stadium{
+    height:700px;
+    width:100%;
+    background-color:black;
+}
+
+.sky{
+    width: 100%;
+    height:200px;
+    background-color:lightblue;
+    background-image: url(http://bckgrnds.files.wordpress.com/2011/10/cloud_by_avrt-d4azyvm.png);
+    background-size: cover;
+}
+
+
+
+.field{
+    width: 100%;
+        height:300px;
+    background-color:green;
+    position:relative;
+}
+
+.stands{
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    background-image: url(http://www.clker.com/cliparts/O/e/W/W/9/J/smaller-crowd-rdc-color-hi.png);
+    background-size: contain;
+}
+
+.goal{
+    width:50px;
+    height:100px;
+    border:2px solid blue;
+}
+
+#goal-1 {
+    position: absolute;
+    top: 100px;
+    left:0px;
+}
+
+#goal-2 {
+    position: absolute;
+    top:100px;
+    right:0px;
+}
+
+.cloud {
+    position: relative;
+}
+
+
+.goalbox {
+    border: 2px solid orange;
+    width: 75px;
+    height: 150px;
+    top: 75px;
+    position: absolute;
+}
+
+.goalbox.left {
+    left: 0px;
+}
+
+.goalbox.right {
+    right: 0px;
+}
+
+.circle {
+    border: 1px solid orange;
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 40%;
+    left: 45%
+}
+
+.attack-line {
+    border-left: 1px solid red;
+    height: 300px;
+    position: absolute;
+}
+
+.attack-line.left {
+    left: 25%;
+}
+
+.attack-line.center {
+    left: 50%;
+}
+
+.attack-line.right {
+    right: 25%;
+}
+
+#player-1 {
+    position: absolute;
+    left: 22%;
+    width: 100px;
+}
+
+#player-2 {
+    position: absolute;
+    right: 22%;
+    width: 100px;
+}
+
+.soccerball {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 43%;
+    left: 48.5%;
+}
